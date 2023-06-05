@@ -1,0 +1,22 @@
+{
+	"name": "customerexcelsheet",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_BlobStorageConnection",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "Location",
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "CoffeeChain.xls",
+				"container": "raw"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

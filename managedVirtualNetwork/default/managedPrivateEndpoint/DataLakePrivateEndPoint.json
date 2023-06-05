@@ -1,0 +1,10 @@
+{
+	"name": "DataLakePrivateEndPoint",
+	"properties": {
+		"privateLinkResourceId": "/subscriptions/d05e3a01-0072-4a12-90dd-695dda098716/resourceGroups/Test_Course_RG/providers/Microsoft.Storage/storageAccounts/testdatalakegen20017",
+		"groupId": "dfs",
+		"fqdns": [
+			"testdatalakegen20017.dfs.core.windows.net"
+		]
+	}
+}

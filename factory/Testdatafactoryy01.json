@@ -1,0 +1,9 @@
+{
+	"name": "Testdatafactoryy01",
+	"location": "canadacentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "4b8e28bc-b56a-464e-950f-bf82f02ac430",
+		"tenantId": "16446715-0718-4581-af02-52ead6dc05d6"
+	}
+}
