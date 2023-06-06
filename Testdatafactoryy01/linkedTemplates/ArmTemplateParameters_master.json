@@ -1,0 +1,56 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "Testdatafactoryy01"
+		},
+		"LS_ADLSConnection_servicePrincipalCredential": {
+			"value": ""
+		},
+		"LS_BlobStorageConnection_servicePrincipalCredential": {
+			"value": ""
+		},
+		"LS_SQLConnection_connectionString": {
+			"value": ""
+		},
+		"LS_ADLSConnection_properties_typeProperties_url": {
+			"value": "https://testdatalakegen20017.dfs.core.windows.net/"
+		},
+		"LS_ADLSConnection_properties_typeProperties_tenant": {
+			"value": "16446715-0718-4581-af02-52ead6dc05d6"
+		},
+		"LS_ADLSConnection_properties_typeProperties_servicePrincipalId": {
+			"value": "f78c9288-911c-4e91-86c8-430e7ee2beeb"
+		},
+		"LS_BlobStorageConnection_properties_typeProperties_serviceEndpoint": {
+			"value": "https://testblobstorage0017.blob.core.windows.net/"
+		},
+		"LS_BlobStorageConnection_properties_typeProperties_tenant": {
+			"value": "16446715-0718-4581-af02-52ead6dc05d6"
+		},
+		"LS_BlobStorageConnection_properties_typeProperties_servicePrincipalId": {
+			"value": "f78c9288-911c-4e91-86c8-430e7ee2beeb"
+		},
+		"LS_Keyvaultconnection_properties_typeProperties_baseUrl": {
+			"value": "https://testkeyvaultdemo0111.vault.azure.net/"
+		},
+		"DataLakePrivateEndPoint_properties_privateLinkResourceId": {
+			"value": "/subscriptions/d05e3a01-0072-4a12-90dd-695dda098716/resourceGroups/Test_Course_RG/providers/Microsoft.Storage/storageAccounts/testdatalakegen20017"
+		},
+		"DataLakePrivateEndPoint_properties_groupId": {
+			"value": "dfs"
+		},
+		"DataLakePrivateEndPoint_properties_fqdns": {
+			"value": [
+				"testdatalakegen20017.dfs.core.windows.net"
+			]
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
